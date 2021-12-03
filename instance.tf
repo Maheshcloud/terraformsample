@@ -12,6 +12,6 @@ subnet_id = aws_subnet.aws-public-1.id
 vpc_security_group_ids = [aws_security_group.allow-ssh.id]
 
 #the public SSH key 
-Key_name = aws_key_pair.mykeypair.key_name
+#Key_name = aws_key_pair.mykeypair.key_name
 
 }
